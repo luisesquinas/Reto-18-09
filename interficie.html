@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1>Imagen en HTML</h1>
+    <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+    
+    <img src="pic_mountains.jpg" alt="Montañas" width="500" height="333">
+    <img src="pic_sea.jpg" alt="Mar" width="500" height="333">
+    
+    <h2>Una lista ordenada en HTML</h2>
+
+    <ol>
+        <li>Café</li>
+        <li>Té</li>
+        <li>Leche</li>
+    </ol>
+
+    <h2>Una lista desordenada en HTML</h2>
+
+    <ul>
+        <li>Manzana</li>
+        <li>Banana</li>
+        <li>Naranja</li>
+    </ul>
+
+    <h2>El elemento menú</h2>
+
+    <menu>
+        <li>Café</li>
+        <li>Té</li>
+        <li>Leche</li>
+    </menu>
+
+    <h2>Otro menú</h2>
+
+    <menu>
+        <li>Pizza</li>
+        <li>Hamburguesa</li>
+        <li>Ensalada</li>
+    </menu>
+
+    <style>
+        h3 {
+            text-shadow: 2px 2px red;
+        }
+    </style>
+
+    <h3>¡Efecto de sombra!</h3>
+
+    <style>
+        div.static {
+            position: static;
+            border: 3px solid #73AD21;
+            margin: 20px;
+            box-shadow: 5px 5px 10px gray;
+        }
+
+        div.relative {
+            position: relative;
+            border: 3px solid #FF5733;
+            margin: 30px;
+            box-shadow: 3px 3px 8px black;
+        }
+
+        div.fixed {
+            position: fixed;
+            top: 100px;
+            left: 50px;
+            width: 200px;
+            height: 100px;
+            border: 3px solid #33FF57;
+            background-color: #f0f0f0;
+            box-shadow: 4px 4px 12px blue;
+        }
+    </style>
+
+    <h2>posición: estática;</h2>
+
+    <p>Div posicionado estático:</p>
+
+    <div class="static">
+        Elemento div estático;
+    </div>
+
+    <h2>posición: relativa;</h2>
+
+    <p>Div posicionado relativo:</p>
+
+    <div class="relative">
+        Elemento div relativo;
+    </div>
+
+    <h2>posición: fija;</h2>
+
+    <p>Div posicionado fijo:</p>
+
+    <div class="fixed">
+        Elemento div fijo;
+    </div>
+
+    <style>
+        #myDiv {
+            border: 1px solid #FF0000;
+            margin: 10px;
+            box-shadow: 2px 2px 5px black;
+        }
+    </style>
+
+    <div id="myDiv">Este es un div con sombra y margen.</div>
+    <br>
+    <button type="button" onclick="myFunction()">Establecer márgenes</button>
+
+    <script>
+    function myFunction() {
+      document.getElementById("myDiv").style.margin = "50px 10px 20px 30px";
+    }
+    </script>
+
+</body>
+</html>
+
